@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev_env
+  application:
+    name: projectservice
+    
+  cloud:
+    config:
+      uri: http://localhost:8081
+  token:
+  key: TESTKEY
+  validity: 500
